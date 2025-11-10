@@ -1,0 +1,94 @@
+.settings-container {
+  padding: 30px;
+  background-color: #f9fafb;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.settings-title {
+  font-size: 26px;
+  color: #111827;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.settings-message {
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.settings-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 20px 25px;
+  margin-bottom: 25px;
+}
+
+.settings-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 8px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 14px;
+  color: #374151;
+  margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #3b82f6;
+}
+
+.checkbox-group {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.save-btn {
+  background-color: #3b82f6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.save-btn:hover {
+  background-color: #2563eb;
+}
+
+.save-btn:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}

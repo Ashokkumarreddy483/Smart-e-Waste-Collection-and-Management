@@ -1,0 +1,70 @@
+.recycle-container {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f6fff7;
+  min-height: 100vh;
+}
+
+.recycle-header h1 {
+  color: #2e7d32;
+  font-size: 2.5rem;
+}
+
+.recycle-header p {
+  color: #555;
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.recycle-tips {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.recycle-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.recycle-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+.cta-section {
+  margin-top: 60px;
+  background: #e8f5e9;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.cta-section h2 {
+  color: #1b5e20;
+  font-size: 1.8rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background: #2e7d32;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background: #1b5e20;
+}
