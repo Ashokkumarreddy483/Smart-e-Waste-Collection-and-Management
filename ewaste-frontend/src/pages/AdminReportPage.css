@@ -1,0 +1,129 @@
+.report-container {
+  padding: 30px;
+  background-color: #f9fafb;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.report-title {
+  font-size: 26px;
+  color: #111827;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+  margin-bottom: 35px;
+}
+
+.stat-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: scale(1.05);
+}
+
+.stat-card h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #6b7280;
+}
+
+.stat-card p {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.stat-card.total {
+  border-top: 5px solid #3b82f6;
+}
+
+.stat-card.approved {
+  border-top: 5px solid #22c55e;
+}
+
+.stat-card.pending {
+  border-top: 5px solid #facc15;
+}
+
+.stat-card.rejected {
+  border-top: 5px solid #ef4444;
+}
+
+/* Table Section */
+.report-table-container {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+}
+
+.sub-title {
+  font-size: 18px;
+  color: #1f2937;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.report-table th,
+.report-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #f0f0f0;
+  text-align: left;
+}
+
+.report-table th {
+  background-color: #111827;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 13px;
+}
+
+.report-table tr:hover {
+  background-color: #f3f4f6;
+}
+
+.status {
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.status.approved {
+  background-color: #22c55e;
+}
+
+.status.pending {
+  background-color: #facc15;
+  color: #000;
+}
+
+.status.rejected {
+  background-color: #ef4444;
+}
+
+.no-data {
+  text-align: center;
+  padding: 20px;
+  color: #6b7280;
+  font-size: 15px;
+}

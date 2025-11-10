@@ -1,0 +1,104 @@
+.pickup-container {
+  padding: 40px;
+  background: linear-gradient(135deg, #e8f5e9, #ffffff);
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.pickup-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.pickup-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #0b5e36;
+}
+
+.pickup-subtitle {
+  color: #555;
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
+
+.refresh-btn {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.refresh-btn:hover {
+  background-color: #1b5e20;
+}
+
+.table-container {
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pickup-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pickup-table th,
+.pickup-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.pickup-table th {
+  background-color: #0b5e36;
+  color: white;
+}
+
+.status-badge {
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 13px;
+}
+
+.status-badge.pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-badge.approved {
+  background-color: #cce5ff;
+  color: #004085;
+}
+
+.status-badge.scheduled {
+  background-color: #d6ccff;
+  color: #3f0071;
+}
+
+.status-badge.completed {
+  background-color: #c8e6c9;
+  color: #1b5e20;
+}
+
+.status-badge.rejected {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.loading-text,
+.error-text,
+.no-orders {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+  margin-top: 40px;
+}

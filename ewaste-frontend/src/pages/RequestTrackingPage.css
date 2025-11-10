@@ -1,0 +1,135 @@
+.tracking-container {
+  padding: 30px;
+  background: #f5f7fa;
+  min-height: 100vh;
+}
+
+.tracking-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #232f3e;
+}
+
+.tracking-subtitle {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.filter-search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-dropdown,
+.search-input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.tracking-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tracking-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.tracking-card:hover {
+  transform: scale(1.01);
+}
+
+.tracking-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+}
+
+.status-badge.pending {
+  background: #fbc02d;
+}
+.status-badge.approved {
+  background: #388e3c;
+}
+.status-badge.scheduled {
+  background: #1976d2;
+}
+.status-badge.completed {
+  background: #6a1b9a;
+}
+.status-badge.rejected {
+  background: #d32f2f;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  flex: 1;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  background: #ccc;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.circle.active {
+  background: #0073e6;
+}
+
+.line {
+  position: absolute;
+  top: 14px;
+  left: 50%;
+  width: 100%;
+  height: 3px;
+  background: #ddd;
+  z-index: 1;
+}
+
+.active-line {
+  background: #0073e6;
+}
+
+.step-label {
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.device-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  margin: 5px;
+  object-fit: cover;
+}
